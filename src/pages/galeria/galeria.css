@@ -1,0 +1,64 @@
+.containerGaleria {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.cards {
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid #72b33f;
+    width: 18rem;
+    height: 25rem;
+    padding: 1.5rem;
+    margin-right: 1.3rem;
+    margin-bottom: 1.3rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 0.2s all;
+}
+
+.cards:hover {
+    transform: scale(1.1);
+}
+
+.cards img {
+    height: 13rem;
+    width: 13rem;
+    margin-bottom: 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.cards h2 {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+.tipo {
+    font-size: 0.8rem;
+}

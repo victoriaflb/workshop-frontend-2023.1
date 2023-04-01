@@ -1,0 +1,33 @@
+.containerInicio {
+    height: 86vh;
+    display: flex;
+}
+
+.containerCuriosidades {
+    margin-top: 19rem;
+    margin-left: 3.2rem;
+    animation: rise 2s;
+}
+
+.containerCuriosidades h2 {
+    margin-bottom: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.3rem;
+}
+
+.containerCuriosidades ol li {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+@keyframes rise {
+    from {
+        transform: translateX(-15rem);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

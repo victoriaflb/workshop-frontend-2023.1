@@ -1,0 +1,49 @@
+.containerNav {
+    display: flex;
+    height: 6rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(black, transparent);
+    backdrop-filter: blur(20px);
+    animation: flash 2s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    margin-left: 1rem;
+    width: 10.5rem;
+}
+
+.containerNav nav ul {
+    display: flex;
+}
+
+.containerNav nav ul li {
+    list-style-type: none;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.containerNav nav ul li:hover {
+    color: #72b33f;
+}
+
+@keyframes flash {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
