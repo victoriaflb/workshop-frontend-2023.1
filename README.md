@@ -21,3 +21,5 @@ Sobre o site:
 
 INÍCIO, GALERIA e EPISÓDIOS;
 O site buscará a API de Rick & Morty (https://rickandmortyapi.com/) trazendo sua galeria e episódios;
+
+DEPLOY: https://vercel.com/victoriaflb/workshop-frontend-2023-1
